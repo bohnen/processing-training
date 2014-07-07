@@ -8,7 +8,8 @@ void setup()
 
 void draw()
 {
-  int imgheight = 200 * img.height/img.width;
-  image(img, 30, 0 , 200, imgheight);
+  int imgheight = 100 * img.height/img.width;
+  imageMode(CENTER);
+  image(img, mouseX, mouseY , 100, imgheight);
 }
 
